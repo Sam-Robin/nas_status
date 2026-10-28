@@ -20,4 +20,6 @@ class PollGlancesJob
   rescue StandardError => e
     Rails.logger.error("PollGlancesJob failed: #{e.message}")
   end
+
+
 end
