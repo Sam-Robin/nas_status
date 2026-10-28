@@ -1,0 +1,5 @@
+# Sidekiq cron schedule for PollGlancesJob
+PollGlancesJob:
+  cron: "*/10 * * * * *"
+  class: PollGlancesJob
+  queue: default
